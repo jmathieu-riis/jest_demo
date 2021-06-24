@@ -1,0 +1,30 @@
+{
+  "name": "jest_demo",
+  "version": "1.0.0",
+  "description": "demo app for testing with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "ci": "yarn install --frozen-lockfile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmathieu-riis/jest_demo.git"
+  },
+  "keywords": [
+    "jest",
+    "npm",
+    "node",
+    "test",
+    "mock"
+  ],
+  "author": "Jacques Mathieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmathieu-riis/jest_demo/issues"
+  },
+  "homepage": "https://github.com/jmathieu-riis/jest_demo#readme",
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
