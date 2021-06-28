@@ -1,4 +1,7 @@
+import cleanInputString from "./util";
+
+
 function appendLy(baseWord) {
-    return baseWord + "ly";
+    return cleanInputString(baseWord) + "ly";
 }
 export default appendLy;
