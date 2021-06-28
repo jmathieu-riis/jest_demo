@@ -4,7 +4,7 @@
   "description": "demo app for testing with jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest test/* --coverage",
     "ci": "yarn install --frozen-lockfile"
   },
   "repository": {
