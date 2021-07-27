@@ -15,4 +15,4 @@ Demo app for exploring jest mocks and typescript features
 <br>
 
 ## viewing the docs
-[Click Here](docs/index.html) to see an html representation of this project
+[Click Here](jmathieu-riis.github.io/jest_demo) to see an html representation of this project
