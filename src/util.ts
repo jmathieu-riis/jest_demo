@@ -1,4 +1,3 @@
-function cleanInputString(input) {
+export function cleanInputString(input: string): string {
   return input.trim();
 }
-export default cleanInputString;

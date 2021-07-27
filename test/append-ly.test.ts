@@ -1,9 +1,9 @@
 /// <reference path="../src/types/nested.d.ts"/>
 jest.mock('@src/util');
-import cleanInputString from '@src/util';
-import appendLy from '@src/my-function';
+import { appendLy } from '@src/append-ly';
 import { yes } from '@mytypes/yes';
 import { mocked } from 'ts-jest/utils';
+import { cleanInputString } from '@src/util';
 // import MY_NESTED_CONSTANT from 'nested';
 
 
