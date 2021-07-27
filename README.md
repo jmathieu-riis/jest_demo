@@ -13,5 +13,6 @@ Demo app for exploring jest mocks and typescript features
 - `yarn test` or `npm test`
 
 <br>
+
 ## viewing the docs
 [Click Here](docs/index.html)
