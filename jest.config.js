@@ -7,5 +7,5 @@ module.exports = {
 	testEnvironment: 'node',
 	roots: ['<rootDir>'],
 	moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>' }),
-	testMatch: ['**/tests/**/*.+(ts|js)', '**/?(*.)+(spec|test).+(ts|js)']
+	testMatch: ['**/test/**/*.+(ts|js)', '**/?(*.)+(spec|test).+(ts|js)']
 };
