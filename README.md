@@ -3,6 +3,9 @@ Demo app for exploring jest mocks and typescript features
 
 <br>
 
+## generating docs
+- `yarn typedoc` or `npm run typedoc`
+
 ## installation
 - `yarn` or `npm install`
 
