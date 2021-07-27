@@ -1,23 +1,19 @@
 {
     "compilerOptions": {
-        "module": "CommonJS",
+        "module": "commonjs",
         "target": "es2020",
-        "jsx": "preserve",
         "allowJs": true,
+        "moduleResolution": "Node",
         "strictFunctionTypes": true,
         "noImplicitAny": false,
         "removeComments": true,
         "preserveConstEnums": true,
-        "sourceMap": false,
+        "sourceMap": true,
         "esModuleInterop": true,
         "baseUrl": ".",
         "paths": {
-            "@src/*": [
-                "./src/*"
-            ],
-            "@types/*": [
-                "./src/types/*"
-            ]
+            "@src/*": ["src/*"],
+            "@mytypes/*": ["src/types/*"]
         },
         "outDir": "dist",
         "forceConsistentCasingInFileNames": true

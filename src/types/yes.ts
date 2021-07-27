@@ -1,2 +1,4 @@
-const yes = "yes";
-export default yes;
+export const yes = "yes";
+export default {
+    "value": yes
+};

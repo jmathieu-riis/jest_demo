@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Mayukai Mirage",
+    "json.format.enable": false,
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "javascript.format.semicolons": "insert"
+}
